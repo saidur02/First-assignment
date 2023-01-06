@@ -1,4 +1,8 @@
 /* banner section */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
 .banner{
 
     position: relative;
@@ -9,18 +13,26 @@
    margin-left: 845px;
    top: 216px;
    font-weight: 700px;
-   font-size: 35px;
+   font-size: 50px;
+   color: white;
+   text-align: right;
+}
+.head-design{
+   margin-left: 340px;
 }
 .banner-description{
     margin-left: 845px;
-    top: 420px;
-    font-weight: 700px;
-    font-size: 24px;
+    top:420px;
+    text-align: right;
+    font-weight: 400px;
+    font-size: 20px;
     position: absolute;
+    color: white;
 }
 .banner-btn{
-    margin-left: 1165px;
-    top: 580px;
+    margin-left: 1200px;
+    top: 510px;
+    font-weight: 600;
   font-size: 20px;
     position: absolute;
     border-radius: 5px;
@@ -32,9 +44,27 @@
 /* past History Section */
 .past-history{
     display: flex;
+    height: 1070px;
+    width: 720px;
+    
+    
+}
+.section-header{
+    font-weight: 700;
+    font-size: 30px;
+   
+}
+.section-description{
+    font-weight: 400;
+    font-size: 20px;
+    color: #151414;
+}
+.failur-text{
+    margin-top: 311px;
 }
 .past-history ul li{
     list-style:circle;
+   
 
 }
 /* future Section */
