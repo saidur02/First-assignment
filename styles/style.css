@@ -1,0 +1,56 @@
+/* banner section */
+.banner{
+
+    position: relative;
+    
+}
+.banner-heading{
+    position: absolute;
+   margin-left: 845px;
+   top: 216px;
+   font-weight: 700px;
+   font-size: 35px;
+}
+.banner-description{
+    margin-left: 845px;
+    top: 420px;
+    font-weight: 700px;
+    font-size: 24px;
+    position: absolute;
+}
+.banner-btn{
+    margin-left: 1165px;
+    top: 580px;
+  font-size: 20px;
+    position: absolute;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: white;
+}
+/* past History Section */
+.past-history{
+    display: flex;
+}
+.past-history ul li{
+    list-style:circle;
+
+}
+/* future Section */
+.my-plan{
+
+}
+/* mindset Section */
+.mindset-img{
+    position: absolute;
+}
+.mindset{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    
+}
+.mindset-heading{
+    position: relative;
+}
+/* footer Section */
