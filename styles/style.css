@@ -9,6 +9,9 @@
     position: relative;
     
 }
+.banner-img{
+    width: 1600px;
+}
 .banner-heading{
     position: absolute;
    margin-left: 845px;
@@ -32,7 +35,8 @@
     color: white;
 }
 .banner-btn{
-    margin-left: 1200px;
+    margin-left:1350px;
+    text-align: right;
     top: 510px;
     font-weight: 600;
   font-size: 20px;
@@ -46,11 +50,6 @@
 /* past History Section */
 .past-history{
     display: flex;
-    height: 1070px;
-    width: 720px;
-    justify-content: space-between;
-    top: 380px;
-    
     
 }
 .section-header{
@@ -68,7 +67,7 @@ height: 94px;
 height: 104px;
 }
 .failur-text{
-    margin-top: 410px;
+    margin-top: 300px;
     margin-left: 150px;
     
 }
@@ -79,13 +78,47 @@ height: 104px;
    
 
 }
-.list-style-img{
-    height: 24px;
-    width: 24px;
+.section-img{
+    width: 570px;
+    height: 720px;
+    
+    
 }
+
 /* future Section */
 .my-plan{
+   
+    
+}
+.plan{
+    text-align: center;
+    width: 218px;
+height: 197px;
 
+}
+.section-title{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #151414;
+    margin-top: 130px;
+}
+.plan-list{
+    display: flex;
+    justify-content: space-around;
+    width: 1141px;
+    height: 203px;
+    margin-left: 190px
+   
+}
+.plan-title{
+font-size: 23px;
+font-weight: 700;
+}
+.plan-description{
+    font-weight: 400;
+margin-top: 16px;
 }
 /* mindset Section */
 .mindset-img{
@@ -94,9 +127,92 @@ height: 104px;
 .mindset{
     background-image: url(../images/watch.png);
     background-repeat: no-repeat;
-    
+    margin-left: 190px;
+   
 }
 .mindset-heading{
     position: relative;
+    width: 459px;
+height: 94px;
+left: 46px;
+top: 70px;
+font-size: 40px;
 }
-/* footer Section */
+.call-btn{
+    position: absolute;
+    color: #005FAC;
+    background-color: white;
+    font-weight: 600;
+font-size: 20px;
+border-radius: 5px;
+height: 50px;
+    width: 150px;
+    border: none;
+    left: 230px;
+    margin-top: 100px;
+}
+.footer{
+    margin-bottom: 130px;
+    background-color: #151414;
+    margin-top: 270px;
+    display: flex;
+}
+.contact{
+    width: 485px;
+    margin-left: 230px;
+}
+.contact-title{
+    color: #f8f8f8;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 230px;
+    margin-top: 130px;
+}
+.contact-description{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 230px;
+}
+.contact p{
+    color: #fff;
+    margin-left: 230px;
+    line-height: 30px;
+
+}
+.contact a img{
+   
+}
+.footer-icon{
+    display: flex;
+    margin-left: 230px;
+    justify-content: space-around;
+}
+.with-us{
+    margin-left: 330px;
+    margin-top: 150px;
+}
+.with-us-header{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.input-mail{
+    width: 180px;
+    height: 21px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subscribe-btn{
+    color: #fff;
+    background-color: #005FAC;
+    font-weight: 600;
+font-size: 20px;
+border-radius: 5px;
+height: 50px;
+   
+    border: none;
+ 
+   
+}
