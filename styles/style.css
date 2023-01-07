@@ -14,7 +14,7 @@
 }
 .banner-heading{
     position: absolute;
-   margin-left: 845px;
+   margin-left: 750px;
    top: 155px;
    font-weight: 700px;
    font-size: 65px;
@@ -28,18 +28,20 @@
    margin-left: 340px;
 }
 .banner-description{
-    margin-left: 845px;
+    margin-left: 910px;
     top:440px;
     text-align: right;
     font-weight: 400px;
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
     color: white;
+    width: 494px;
+height: 78px;
 }
 .banner-btn{
-    margin-left:1350px;
+    margin-left:1250px;
     text-align: center;
-    top: 535px;
+    top: 565px;
     font-weight: 600;
   font-size: 20px;
     position: absolute;
