@@ -86,6 +86,7 @@ height: 78px;
     width: 288px;
 height: 94px;
 margin-right: 150px;
+margin-left: 35px;
    
 }
 .section-description{
@@ -95,13 +96,17 @@ margin-right: 150px;
     width: 416px;
 height: 104px;
 margin-bottom: 50px;
+margin-left: 35px;
 }
 .failur-text{
     margin-top: 300px;
     margin-left: 170px;
     
 }
-
+.li{
+    width: 360px;
+    height: 162px;
+}
 .past-history ul li{
     list-style-type: none ;
     line-height: 30px;
