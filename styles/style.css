@@ -4,6 +4,28 @@
     font-family: 'Open Sans', sans-serif;
    
 }
+.menu{
+    margin-left:992px;
+    text-align: center;
+    top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 5px;
+    height: 75px;
+    width: 436px;
+    border: none;
+}
+.menu-btn{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 55px;
+    width: 140px;
+    border: none;
+    background-color: rgb(127, 195, 235);
+}
 
 .banner{
 
@@ -179,9 +201,7 @@ height: 50px;
     margin-top: 100px;
 }
 /* footer section */
-.footer-container{
-    
-}
+
 .footer{
     margin-bottom: 130px;
     background-color: #151414;
@@ -216,9 +236,7 @@ height: 50px;
     font-size: 16px;
 
 }
-.contact a img{
-   
-}
+
 .footer-icon{
     display: flex;
     margin-left: 190px;
