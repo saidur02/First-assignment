@@ -1,7 +1,7 @@
 /* banner section */
 *{
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
    
 }
 .banner{
@@ -15,11 +15,13 @@
 .banner-heading{
     position: absolute;
    margin-left: 845px;
-   top: 216px;
+   top: 155px;
    font-weight: 700px;
-   font-size: 50px;
+   font-size: 65px;
    color: white;
    text-align: right;
+   width: 650px;
+   height: 230px;
 
 }
 .head-design{
@@ -27,17 +29,17 @@
 }
 .banner-description{
     margin-left: 845px;
-    top:420px;
+    top:440px;
     text-align: right;
     font-weight: 400px;
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
     color: white;
 }
 .banner-btn{
     margin-left:1350px;
-    text-align: right;
-    top: 510px;
+    text-align: center;
+    top: 535px;
     font-weight: 600;
   font-size: 20px;
     position: absolute;
@@ -50,6 +52,7 @@
 /* past History Section */
 .past-history{
     display: flex;
+    margin-left: 200px;
     
 }
 .section-header{
@@ -65,6 +68,7 @@ height: 94px;
     color: #151414;
     width: 416px;
 height: 104px;
+margin-bottom: 50px;
 }
 .failur-text{
     margin-top: 300px;
@@ -72,7 +76,7 @@ height: 104px;
     
 }
 .past-history ul li{
-    list-style:none;
+    list-style-type: style ;
     line-height: 30px;
    
    
@@ -87,7 +91,7 @@ height: 104px;
 
 /* future Section */
 .my-plan{
-   
+    margin-bottom: 30px;
     
 }
 .plan{
@@ -110,7 +114,7 @@ height: 197px;
     width: 1141px;
     height: 203px;
     margin-left: 190px
-   
+ 
 }
 .plan-title{
 font-size: 23px;
@@ -120,6 +124,24 @@ font-weight: 700;
     font-weight: 400;
 margin-top: 16px;
 }
+.do-container{
+    display:flex;
+    margin-left: 200px;
+}
+.do-header{
+    background-color: #df9c2b;
+    margin-bottom: 20px;
+}
+.me-img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+..do-container ul li{
+    font-size: 24px;
+    margin-top: 5px;
+}
 /* mindset Section */
 .mindset-img{
     position: absolute;
@@ -128,6 +150,8 @@ margin-top: 16px;
     background-image: url(../images/watch.png);
     background-repeat: no-repeat;
     margin-left: 190px;
+   
+  
    
 }
 .mindset-heading{
@@ -151,15 +175,20 @@ height: 50px;
     left: 230px;
     margin-top: 100px;
 }
+/* footer section */
+.footer-container{
+    
+}
 .footer{
     margin-bottom: 130px;
     background-color: #151414;
     margin-top: 270px;
     display: flex;
+    height:580px;
 }
 .contact{
     width: 485px;
-    margin-left: 230px;
+    margin-left: 100px;
 }
 .contact-title{
     color: #f8f8f8;
@@ -167,17 +196,21 @@ height: 50px;
     font-weight: 700;
     margin-left: 230px;
     margin-top: 130px;
+    margin-bottom: 20px;
 }
 .contact-description{
     color: #fff;
-    font-size: 16px;
+    width: 480px;
+    font-size: 10px;
     font-weight: 400;
     margin-left: 230px;
 }
+
 .contact p{
     color: #fff;
     margin-left: 230px;
-    line-height: 30px;
+    line-height: 24px;
+    font-size: 16px;
 
 }
 .contact a img{
@@ -189,7 +222,7 @@ height: 50px;
     justify-content: space-around;
 }
 .with-us{
-    margin-left: 330px;
+    margin-left: 370px;
     margin-top: 150px;
 }
 .with-us-header{
